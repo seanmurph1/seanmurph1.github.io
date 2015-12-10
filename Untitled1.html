@@ -7,9 +7,24 @@
               <meta name="viewport" content="width=device-width, initial-scale=1">
               <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-              <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+              <style>
+                  #body{
+                      background-color:#E5FFFF;
+                  }
+                  #lar{
+                      
+                      color:red;
+                  }
+                  #med{
+                      color:blue;
+                  }
+                  #small{
+                      color:green;
+                  }
+              </style>
     </head>
-    <body>
+    <body id="body">
     <div class="container">
             <div class="jumbotron">
                 <h1> This is the jumbotron</h1>
@@ -41,13 +56,22 @@
                         </tr>
                     </tbody>
                     </table>
-                    <div class="container">
+                   <div class="container">
                         <h1> Different types of pictures.</h1>
-                        <img class="img-rounded" src="https://cdn.evbuc.com/eventlogos/12632461/screenshot20140131at3.32.00pm.png"  width="150" height="150"/>
-                        <img class="img-circle"  src="https://cdn.evbuc.com/eventlogos/12632461/screenshot20140131at3.32.00pm.png"   width="150" height="150"/>
-                        <img class="img-thumbnail" src="https://cdn.evbuc.com/eventlogos/12632461/screenshot20140131at3.32.00pm.png" width="150" height="150"/>
-                    </div>
+                        <img  src="https://cdn.evbuc.com/eventlogos/12632461/screenshot20140131at3.32.00pm.png"  class="img-rounded" alt="bootstrap round" width="150" height="150"/>
+                        <img   src="https://cdn.evbuc.com/eventlogos/12632461/screenshot20140131at3.32.00pm.png"   class="img-circle" width="150" alt="bootstrap circle" height="150"/>
+                        <img  src="https://cdn.evbuc.com/eventlogos/12632461/screenshot20140131at3.32.00pm.png" class="img-thumbnail" alt="Bootstrap thumbnail" width="150" height="150"/>
+                        </div>
+                    <div class="container">
+                          <h2> Different Button Sizes</h2>
+                                  <button type="button" class="btn btn-primary btn-lg" id="lar">Large</button>
+                                  <button type="button" class="btn btn-primary btn-md" id="med">Medium</button>    
+                                 <button type="button" class="btn btn-primary btn-sm" id="small">Small</button>
+                                  <button type="button" class="btn btn-primary btn-xs" id="xsmall">XSmall</button>
+</div>
+
                     
+      
                 </div>
                 </div>
                 
